@@ -4,9 +4,12 @@
    (0% => picked first, but zero chances of winning, 100% = guaranteed win, but will only get picked if everyone else loses)
    For a given list of entries (percent values), which one has the maximum chance of winning? '''
 
-entries = [6.7, 10, 11, 10, 0.1, 9.98, 6.69, 1.7, 7, 9, 4, 10.99, 0.164, 3.9, 7.7, 5, 10, 6.84, 1.555, \
-           10, 8.2, 10.9, 1.3333, 10.01, 11.11, 1, 5.5, 10, 0.4, 8, 12, 7.88, 7.6, 9.97, 6.84, \
-            1.5, 0.8, 13.13, 4.67]
+x = 6.5
+y = 10.568 
+entries = [7.699999, 10.01, 17.12, 18, 6.7, 7, 7.7, 14, 9, 8.3, 16, 12.4, 9.69, x, 13.13, 10, 8.1, 17.85, \
+           4.82, 15, 6.7, 4, 5, 7, 17.48, 12, 5, 8.88, 9.34, 7.7, 14, 5.15, 5.43, 12.81, \
+            17.21, 18, 17, 9.2, 9.98, y, 9.9, 10, 6.7, 3, 9.5, 0.5, 8.5, 10.2, 6.9, 6.1, 15.49,\
+               11, 6.48]
 entries = sorted(entries)
 
 prob_win = [0 for _ in range(len(entries))]
